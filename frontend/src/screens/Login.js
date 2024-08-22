@@ -69,6 +69,7 @@ export default function Login() {
               type="email"
               className="form-control"
               name="email"
+              placeholder="Enter your email"
               value={credential.email}
               onChange={onchange}
               aria-describedby="emailHelp"
@@ -82,6 +83,7 @@ export default function Login() {
             <input
               type="password"
               className="form-control"
+              placeholder="Enter your password"
               value={credential.password}
               onChange={onchange}
               name="password"
