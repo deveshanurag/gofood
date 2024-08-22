@@ -72,6 +72,7 @@ export default function Signup() {
               type="text"
               className="form-control"
               name="name"
+              placeholder="Enter your name"
               value={credential.name}
               onChange={onchange}
               aria-describedby="emailHelp"
@@ -85,6 +86,7 @@ export default function Signup() {
               type="email"
               className="form-control"
               name="email"
+              placeholder="Enter your email"
               value={credential.email}
               onChange={onchange}
               aria-describedby="emailHelp"
@@ -103,6 +105,7 @@ export default function Signup() {
               className="form-control"
               id="exampleInputPassword1"
               name="geolocation"
+              placeholder="Enter your location"
               value={credential.geolocation}
               onChange={onchange}
             />
@@ -114,6 +117,7 @@ export default function Signup() {
             <input
               type="password"
               className="form-control"
+              placeholder="Enter your password"
               value={credential.password}
               onChange={onchange}
               name="password"
